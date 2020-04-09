@@ -1,0 +1,6 @@
+----------Margin & Padding------------
+Margin have a strange behaviour where they merge together which can cause 
+confusion and problems
+
+The spacing between headings, paragraphs are controlled by margin-top, margin-bottom
+By default, the margin-top and margin-bottom fot headings/paragraphs = their font-size
