@@ -1,0 +1,39 @@
+----------Margin & Padding------------
+Margin have a strange behaviour where they merge together which can cause 
+confusion and problems
+
+The spacing between headings, paragraphs are controlled by margin-top, margin-bottom
+By default, the margin-top and margin-bottom fot headings/paragraphs = their font-size
+
+Turn off margin-top on typography on elements so can have little things to maintain and keep track off
+but still maintain a consistent layout 
+
+Block level elements by default occupy the entire width of their parent element, so we can say they
+create a "block". Hence, they create a new line of content and stack on top of each other by default. 
+
+An inline element on the other hand by default doesn't occupy the entire width of the parent it
+only takes as much width as necessary for the content 
+--------Rules of Inline--------
+You can only nest other inline elements in them
+They only respect left/right margin and padding 
+
+span element is used as an inline container which is used to group
+elements for styling purposes. Similar to div, but div is a block element
+while span is an inline element
+
+Link states
+-- default
+-- visited
+-- focus
+-- hover
+-- active 
+
+We use pseudo classes to target the diferent link states
+The order in which we use this is impportant(hover&focus)
+Hover should always come after focus
+
+---Link styling tips 
+======Change the hover and focus color
+======Leave text decoration, but if you leave it, make sure it's 
+still obvious that its a link
+======
