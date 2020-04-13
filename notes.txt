@@ -16,3 +16,24 @@ only takes as much width as necessary for the content
 --------Rules of Inline--------
 You can only nest other inline elements in them
 They only respect left/right margin and padding 
+
+span element is used as an inline container which is used to group
+elements for styling purposes. Similar to div, but div is a block element
+while span is an inline element
+
+Link states
+-- default
+-- visited
+-- focus
+-- hover
+-- active 
+
+We use pseudo classes to target the diferent link states
+The order in which we use this is impportant(hover&focus)
+Hover should always come after focus
+
+---Link styling tips 
+======Change the hover and focus color
+======Leave text decoration, but if you leave it, make sure it's 
+still obvious that its a link
+======

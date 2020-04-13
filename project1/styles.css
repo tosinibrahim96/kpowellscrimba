@@ -15,6 +15,10 @@ h1 {
   font-size: 24px;
 }
 
+.accent-color {
+  color: #ffe600;
+}
+
 p {
   font-size: 18px;
 }
@@ -24,7 +28,21 @@ p {
   margin-bottom: 0;
 }
 
-strong{
+strong {
   background-color: yellow;
   color: black;
+}
+
+a:link,
+a:visited {
+  color: #ffe600;
+}
+
+a:focus,
+a:hover {
+  color: aquamarine;
+}
+
+a:active{
+  color: plum;
 }
